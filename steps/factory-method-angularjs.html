@@ -1,0 +1,17 @@
+<h3>Factory Method AngularJS</h3>
+
+<pre lang="javascript" class="small"><code>myModule.config(function ($provide) {
+  $provide.provider('foo', function () {
+    var baz = 42;
+    return {
+      //Factory method
+      $get: function (bar) {
+        var baz = bar.baz();
+        return {
+          baz: baz
+        };
+      }
+    };
+  });
+});</code></pre>
+
