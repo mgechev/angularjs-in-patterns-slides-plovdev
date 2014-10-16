@@ -298,50 +298,8 @@
         "id": "dependency-resolve",
         "class": "step",
         "data": {
-            "x": 138000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "dependency-resolve-annotate.html",
-        "id": "dependency-resolve-annotate",
-        "class": "step",
-        "data": {
-            "x": 141000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "dependency-resolve-get.html",
-        "id": "dependency-resolve-get",
-        "class": "step",
-        "data": {
-            "x": 144000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "dependency-resolve-invoke.html",
-        "id": "dependency-resolve-invoke",
-        "class": "step",
-        "data": {
-            "x": 147000,
-            "y": 0,
+            "x": 60000,
+            "y": 2000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -354,13 +312,55 @@
         "id": "dependency-resolve-code",
         "class": "step",
         "data": {
-            "x": 150000,
-            "y": 0,
+            "x": 60000,
+            "y": 2000,
+            "z": 2000,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "dependency-resolve-annotate.html",
+        "id": "dependency-resolve-annotate",
+        "class": "step",
+        "data": {
+            "x": 60000,
+            "y": 4000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "dependency-resolve-get.html",
+        "id": "dependency-resolve-get",
+        "class": "step",
+        "data": {
+            "x": 60000,
+            "y": 6000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
+        }
+    },
+    {
+        "uri": "dependency-resolve-invoke.html",
+        "id": "dependency-resolve-invoke",
+        "class": "step",
+        "data": {
+            "x": 60000,
+            "y": 8000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 0
         }
     },
     {
@@ -466,8 +466,8 @@
         "id": "observer-behind-the-scene",
         "class": "step",
         "data": {
-            "x": 138000,
-            "y": 0,
+            "x": 96000,
+            "y": 2000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -480,13 +480,13 @@
         "id": "observer-behind-the-scene-code",
         "class": "step",
         "data": {
-            "x": 141000,
-            "y": 0,
+            "x": 96000,
+            "y": 4000,
             "z": 0,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 90,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -522,8 +522,8 @@
         "id": "chain-of-responsibilities-behind-the-scene",
         "class": "step",
         "data": {
-            "x": 138000,
-            "y": 0,
+            "x": 102000,
+            "y": 2000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -536,13 +536,13 @@
         "id": "chain-of-responsibilities-behind-the-scene-code",
         "class": "step",
         "data": {
-            "x": 141000,
-            "y": 0,
+            "x": 102000,
+            "y": 4000,
             "z": 0,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 90,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
