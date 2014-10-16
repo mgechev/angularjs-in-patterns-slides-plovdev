@@ -1,0 +1,26 @@
+<pre>
+//...
+Scope.prototype.$$publish = function(topic, data) {
+  var event = {topic: topic, stopPropagation: false};
+  if (!this.$$topics[topic]) {
+    // no event handlers, so the event was handled successfully
+    return true;
+  }
+  var subscribers = this.$$topics[topic],
+      len = subscribers ? subscribers.length : 0;
+  while (len--) {
+    subscribers[len](event, data);
+  }
+  return !event.stopPropagation;
+};
+
+//...
+
+Scope.prototype.$emit = function(topic, data) {
+  // check whether the current scope has $parent
+  if (this.$$publish(topic, data) && this.$parent) {
+    this.$parent.$emit(topic, data);
+  }
+};
+//...
+</pre>

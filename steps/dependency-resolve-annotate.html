@@ -1,0 +1,21 @@
+<pre>
+var Provider = Provider || (function () {
+  'use strict';
+
+  return {
+    //...
+    annotate: function (fn) {
+      var res = fn.toString()
+          .replace(/((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg, '')
+          .match(/\((.*?)\)/);
+      if (res && res[1]) {
+        return res[1].split(',').map(function (d) {
+          return d.trim();
+        });
+      }
+      return [];
+    },
+    //...
+  };
+}());
+</pre>

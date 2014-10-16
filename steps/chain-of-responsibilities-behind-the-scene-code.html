@@ -1,0 +1,10 @@
+<pre>
+//...
+Scope.prototype.$emit = function(topic, data) {
+  // check whether the current scope has $parent
+  if (this.$$publish(topic, data) && this.$parent) {
+    this.$parent.$emit(topic, data);
+  }
+};
+//...
+</pre>

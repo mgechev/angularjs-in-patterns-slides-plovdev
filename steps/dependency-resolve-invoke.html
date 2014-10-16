@@ -1,0 +1,16 @@
+<pre>
+var Provider = Provider || (function () {
+  'use strict';
+  return {
+    //...
+    invoke: function (fn, locals) {
+      locals = locals || {};
+      var deps = this.annotate(fn).map(function (s) {
+        return locals[s] || this.get(s, locals);
+      }, this);
+      return fn.apply(null, deps);
+    },
+    //...
+  };
+}());
+</pre>

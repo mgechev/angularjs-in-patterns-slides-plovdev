@@ -294,11 +294,11 @@
         }
     },
     {
-        "uri": "factory-method.html",
-        "id": "factory-method",
+        "uri": "dependency-resolve.html",
+        "id": "dependency-resolve",
         "class": "step",
         "data": {
-            "x": 63000,
+            "x": 138000,
             "y": 0,
             "z": 0,
             "scale": 1,
@@ -308,17 +308,59 @@
         }
     },
     {
-        "uri": "factory-method-angularjs.html",
-        "id": "factory-method-angularjs",
+        "uri": "dependency-resolve-annotate.html",
+        "id": "dependency-resolve-annotate",
         "class": "step",
         "data": {
-            "x": 66000,
+            "x": 141000,
             "y": 0,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 40,
-            "rotate-z": 0
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "dependency-resolve-get.html",
+        "id": "dependency-resolve-get",
+        "class": "step",
+        "data": {
+            "x": 144000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "dependency-resolve-invoke.html",
+        "id": "dependency-resolve-invoke",
+        "class": "step",
+        "data": {
+            "x": 147000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "dependency-resolve-code.html",
+        "id": "dependency-resolve-code",
+        "class": "step",
+        "data": {
+            "x": 150000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
         }
     },
     {
@@ -378,48 +420,6 @@
         }
     },
     {
-        "uri": "directives-partials.html",
-        "id": "directives-partials",
-        "class": "step",
-        "data": {
-            "x": 81000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 30,
-            "rotate-y": 0,
-            "rotate-z": 0
-        }
-    },
-    {
-        "uri": "interpreter.html",
-        "id": "interpreter",
-        "class": "step",
-        "data": {
-            "x": 84000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "interpreter-angularjs.html",
-        "id": "interpreter-angularjs",
-        "class": "step",
-        "data": {
-            "x": 87000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 30,
-            "rotate-y": 20,
-            "rotate-z": 0
-        }
-    },
-    {
         "uri": "scope-patterns.html",
         "id": "scope-patterns",
         "class": "step",
@@ -462,6 +462,34 @@
         }
     },
     {
+        "uri": "observer-behind-the-scene.html",
+        "id": "observer-behind-the-scene",
+        "class": "step",
+        "data": {
+            "x": 138000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "observer-behind-the-scene-code.html",
+        "id": "observer-behind-the-scene-code",
+        "class": "step",
+        "data": {
+            "x": 141000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
         "uri": "chain-of-responsibilities.html",
         "id": "chain-of-responsibilities",
         "class": "step",
@@ -490,45 +518,31 @@
         }
     },
     {
-        "uri": "controller-patterns.html",
-        "id": "controller-patterns",
+        "uri": "chain-of-responsibilities-behind-the-scene.html",
+        "id": "chain-of-responsibilities-behind-the-scene",
         "class": "step",
         "data": {
-            "x": 105000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 90,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "page-controller.html",
-        "id": "page-controller",
-        "class": "step",
-        "data": {
-            "x": 108000,
+            "x": 138000,
             "y": 0,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 0
+            "rotate-z": 90
         }
     },
     {
-        "uri": "page-controller-angularjs.html",
-        "id": "page-controller-angularjs",
+        "uri": "chain-of-responsibilities-behind-the-scene-code.html",
+        "id": "chain-of-responsibilities-behind-the-scene-code",
         "class": "step",
         "data": {
-            "x": 111000,
+            "x": 141000,
             "y": 0,
             "z": 0,
             "scale": 1,
-            "rotate-x": 90,
+            "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 0
+            "rotate-z": 90
         }
     },
     {
@@ -627,6 +641,20 @@
             "rotate-x": 90,
             "rotate-y": 0,
             "rotate-z": 0
+        }
+    },
+    {
+        "uri": "more-patterns.html",
+        "id": "more-patterns",
+        "class": "step",
+        "data": {
+            "x": 138000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
         }
     },
     {

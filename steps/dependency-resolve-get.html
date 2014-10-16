@@ -1,0 +1,18 @@
+<pre>
+var Provider = Provider || (function () {
+  'use strict';
+  return {
+    get: function (name, locals) {
+      if (this._cache[name]) {
+        return this._cache[name];
+      }
+      var provider = this._providers[name];
+      if (!provider || typeof provider !== 'function') {
+        return null;
+      }
+      return (this._cache[name] = this.invoke(provider, locals));
+    },
+    //...
+  };
+}());
+</pre>
