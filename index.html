@@ -10,7 +10,7 @@
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
-    <link rel="stylesheet" href="bower_components/highlight/src/styles/default.css">
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/monokai.css">
     <link href="bower_components/impress.js/css/impress-demo.css" rel="stylesheet" />
     <link href="css/impressConsole.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
@@ -29,15 +29,13 @@
   <script src="bower_components/jquery/jquery.js"></script>
   <script src="bower_components/handlebars/handlebars.js"></script>
   <script src="bower_components/impress.js/js/impress.js"></script>
-  <script src="bower_components/highlight/build/highlight.pack.js"></script>
+  <script src="bower_components/highlightjs/highlight.pack.js"></script>
   <script src="js/impressConsole.js"></script>
   <script src="js/main.js"></script>
 
   <script id="step-template" type="x-handlebars-template">
     <div id="{{id}}" class="{{class}}"{{#step data}}{{uri}}{{/step}}>{{{file}}}</div>
   </script> 
-
-  <script>hljs.initHighlightingOnLoad();</script>
 
   <script>
   // First, get sorted slide list
@@ -47,6 +45,7 @@
     appendSlides(data);
     impress().init();
     impressConsole().init();
+    hljs.initHighlightingOnLoad();
   });
   </script>
 
