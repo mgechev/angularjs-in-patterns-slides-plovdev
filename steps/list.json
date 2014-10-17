@@ -560,67 +560,11 @@
         }
     },
     {
-        "uri": "others.html",
-        "id": "others",
-        "class": "step",
-        "data": {
-            "x": 114000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "module-pattern.html",
-        "id": "module-pattern",
-        "class": "step",
-        "data": {
-            "x": 117000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 90,
-            "rotate-y": 0,
-            "rotate-z": 0
-        }
-    },
-    {
-        "uri": "module-pattern-2.html",
-        "id": "module-pattern-2",
-        "class": "step",
-        "data": {
-            "x": 120000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
-    {
-        "uri": "module-pattern-angularjs.html",
-        "id": "module-pattern-angularjs",
-        "class": "step",
-        "data": {
-            "x": 123000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 30,
-            "rotate-z": 90
-        }
-    },
-    {
         "uri": "more-patterns.html",
         "id": "more-patterns",
         "class": "step",
         "data": {
-            "x": 125000,
+            "x": 105000,
             "y": 0,
             "z": 0,
             "scale": 1,
@@ -634,7 +578,7 @@
         "id": "thank",
         "class": "step",
         "data": {
-            "x": 127000,
+            "x": 107000,
             "y": 0,
             "z": 0,
             "scale": 6,
