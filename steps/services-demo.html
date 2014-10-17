@@ -1,15 +1,17 @@
 <h2>Services Example</h2>
 
 <div class="small">
-  <pre lang="javascript"><code>myModule.service('Developer', function () {
-  this.name = 'Foo';
-  this.motherLanguage = 'JavaScript';
-  this.code = function () {};
-  this.live = function () {
-    while (true) {
-      this.code();
-    }
-  };
+  <pre lang="javascript"><code>myModule.factory('Developer', function () {
+    return function Developer() {
+      this.name = 'Foo';
+      this.motherLanguage = 'JavaScript';
+      this.code = function () {};
+      this.live = function () {
+        while (true) {
+          this.code();
+        }
+      };
+    };
 });</code></pre>
 
   <pre lang="JavaScript"><code>function MyCtrl(Developer) {
