@@ -56,6 +56,20 @@
         }
     },
     {
+        "uri": "design-patterns-barney.html",
+        "id": "design-patterns-barney",
+        "class": "step",
+        "data": {
+            "x": 6000,
+            "y": 200,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
         "uri": "overview.html",
         "id": "overview",
         "class": "step",
@@ -551,7 +565,6 @@
         "class": "step",
         "data": {
             "x": 102000,
-            "y": 4000,
             "y": 0,
             "z": 0,
             "scale": 1,
