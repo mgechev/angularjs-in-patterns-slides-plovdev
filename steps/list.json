@@ -546,12 +546,27 @@
         }
     },
     {
+        "uri": "emit-diagram.html",
+        "id": "emit-diagram",
+        "class": "step",
+        "data": {
+            "x": 102000,
+            "y": 4000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
         "uri": "chain-of-responsibilities-behind-the-scene-code.html",
         "id": "chain-of-responsibilities-behind-the-scene-code",
         "class": "step",
         "data": {
             "x": 102000,
-            "y": 4000,
+            "y": 6000,
             "z": 0,
             "scale": 1,
             "rotate-x": 90,
