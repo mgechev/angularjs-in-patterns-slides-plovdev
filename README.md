@@ -1,0 +1,2 @@
+This repository contains my slides from the conference PlovDev 2014.
+They can be viewed online at [mgechev.github.io/angularjs-in-patterns-slides-plovdev/](https://mgechev.github.io/angularjs-in-patterns-slides-plovdev/).
